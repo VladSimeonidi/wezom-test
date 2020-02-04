@@ -8,6 +8,8 @@ const btns = btnContainer.getElementsByClassName("categorybar__item");
 const windowWidth = document.documentElement.clientWidth;
 const footerUls = document.getElementsByClassName("footer__links-block");
 const burgerMenu = document.querySelector(".burger__menu");
+const icon = document.getElementById("icon");
+const navMenu = document.getElementById("menu");
 const toggleCheckbox = () => {
   if (checkbox.checked == true) {
     select5.style.display = "block";

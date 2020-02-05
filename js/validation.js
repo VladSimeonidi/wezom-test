@@ -1,5 +1,6 @@
+"use strict";
 function checkmail(value) {
-  txt = value;
+  let txt = value;
   if (txt == "") {
     errorPopup(
       "div",
@@ -18,7 +19,7 @@ function checkmail(value) {
     );
     return false;
   }
-  dog = txt.indexOf("@");
+  let dog = txt.indexOf("@");
   if (dog == -1) {
     errorPopup("div", "SubscribePopup", "body", '"Нет символа @."');
     return false;

@@ -1,3 +1,4 @@
+"use strict";
 const checkbox = document.getElementById("checkbox");
 const select5 = document.getElementById("5");
 const select7 = document.getElementById("7");

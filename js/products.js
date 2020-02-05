@@ -1,3 +1,4 @@
+"use strict";
 class Products {
   constructor() {
     this.ClassNameActive = "product__buy_active";

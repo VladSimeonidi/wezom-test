@@ -1,3 +1,4 @@
+"use strict";
 const CATALOGUE = [
   {
     id: "el1",

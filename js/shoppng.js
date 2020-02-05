@@ -1,3 +1,4 @@
+"use strict";
 class Shopping {
   handleclear() {
     ROOT_SHOPPING.innerHTML = "";

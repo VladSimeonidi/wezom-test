@@ -1,3 +1,4 @@
+"use strict";
 const enterButton = document.getElementById("enter");
 const documentHtml = document.getElementsByTagName("html")[0];
 const callbackButton = document.getElementById("callback");
@@ -6,7 +7,6 @@ enterButton.addEventListener("click", () => {
   let formEnter = document.createElement("div");
   formEnter.classList.add("popup-wrapper");
   formEnter.setAttribute("id", "popup-wrapper");
-  console.log(documentHtml);
   documentHtml.insertBefore(formEnter, header);
   formEnter.innerHTML = `
   <form class="popup__form-enter" id="popup__form-enter" action="#">

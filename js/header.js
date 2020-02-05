@@ -1,3 +1,4 @@
+"use strict";
 const productBusket = localStorageUtils.getProducts();
 const busketCount = document.getElementById("busket");
 const productCompare = localStorageUtilsCompare.getProducts();

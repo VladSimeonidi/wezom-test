@@ -1,3 +1,4 @@
+"use strict";
 class LocalStorageUtils {
   constructor(obj) {
     this.keyname = obj;
